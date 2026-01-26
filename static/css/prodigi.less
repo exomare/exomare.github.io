@@ -12,9 +12,9 @@
 @head-text-left: 330px;
 
 @imgr1-height: 70px;
-@imgr1-width: 80px;
+// @imgr1-width: 80px;
 @imgr2-height: 50px;
-@imgr2-width: 80px;
+// @imgr2-width: 80px;
 
 @title-width: 146px;
 @menuh-item-width: 175px;
@@ -81,8 +81,11 @@ div {
   max-width: @body-width;
   background: @head-back;
   img.img0 {
-    min-height: @img-height;
-    max-height: @img-height;
+    // min-height: @img-height;
+    // max-height: @img-height;
+    // min-height: @img-height;
+    margin-left: 60px;
+    max-height: 150px;
   }
 
   div.head_text {
@@ -106,16 +109,16 @@ div {
       margin: 5px 5px 5px 0;
       max-height: @imgr1-height;
       min-height: @imgr1-height;
-      max-width: @imgr1-width;
-      min-width: @imgr1-width;
+      min-width: 200px;
+      // max-width: 200px;
     }
 
     img.img2 {
       margin: 7px 5px 0 0;
       max-height: @imgr2-height;
       min-height: @imgr2-height;
-      max-width: @imgr2-width;
-      min-width: @imgr2-width;
+      // max-width: 200px;
+      min-width: 200px;
     }
   }
 }
@@ -164,7 +167,6 @@ div {
   background: @foot-back;
   text-align: center;
 
-  
   div {
     span {
       font-size: @foot2-font-size;
@@ -211,7 +213,7 @@ div {
       background: @menuh-itemb-back;
     }
 
-    li {     
+    li {
       flex: 3;
       position: relative;
       text-align: center;
